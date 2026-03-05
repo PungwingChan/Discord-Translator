@@ -1,7 +1,7 @@
 {
   "name": "discord-translator-bot",
   "version": "1.0.0",
-  "description": "Discord 多语言翻译机器人",
+  "description": "Discord Multilingual translation robot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
