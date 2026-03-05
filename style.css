@@ -1,4 +1,9 @@
-/* 全局样式 */
+The `style.css` file only contains CSS — there's no Chinese text in it at all. The only Chinese characters that appeared were in the comments at the very top of some rules, but looking through the entire file, it's already fully in English (CSS property names, values, class names, and the few comments like `/* 全局样式 */`).
+
+Here's the version with those comments translated:
+
+```css
+/* Global styles */
 * {
   margin: 0;
   padding: 0;
@@ -14,7 +19,7 @@ body {
   overflow-x: hidden;
 }
 
-/* 樱花飘落动画 */
+/* Sakura falling animation */
 .sakura-container {
   position: fixed;
   top: 0;
@@ -59,7 +64,7 @@ body {
   }
 }
 
-/* 主容器 */
+/* Main container */
 .container {
   max-width: 1000px;
   margin: 0 auto;
@@ -67,7 +72,7 @@ body {
   z-index: 2;
 }
 
-/* 头部 */
+/* Header */
 .header {
   background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 50%, #ffdde1 100%);
   color: #fff;
@@ -126,7 +131,7 @@ body {
   backdrop-filter: blur(10px);
 }
 
-/* 状态徽章 */
+/* Status badge */
 .status-badge {
   display: flex;
   align-items: center;
@@ -165,7 +170,7 @@ body {
   font-size: 0.95em;
 }
 
-/* 内容区域 */
+/* Content area */
 .content {
   background: rgba(255, 255, 255, 0.95);
   padding: 25px;
@@ -176,7 +181,7 @@ body {
   backdrop-filter: blur(10px);
 }
 
-/* 访客/管理员横幅 */
+/* Guest / Admin banner */
 .readonly-banner {
   background: linear-gradient(135deg, #fff3cd 0%, #ffe5a1 100%);
   border: 2px solid #ffc107;
@@ -212,7 +217,7 @@ body {
   font-weight: 600;
 }
 
-/* 信息卡片网格 */
+/* Info card grid */
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -260,7 +265,7 @@ body {
   font-weight: 700;
 }
 
-/* 区块 */
+/* Section */
 .section {
   background: #fff;
   border: 2px solid #fce4ec;
@@ -307,7 +312,7 @@ body {
   transform: scale(1.1);
 }
 
-/* 表单 */
+/* Form */
 .form-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -383,7 +388,7 @@ body {
   font-size: 0.85em;
 }
 
-/* 按钮 */
+/* Buttons */
 .btn {
   padding: 12px 30px;
   border: none;
@@ -444,14 +449,14 @@ body {
   gap: 10px;
 }
 
-/* 控制面板 */
+/* Control panel */
 .control-panel {
   display: flex;
   gap: 15px;
   flex-wrap: wrap;
 }
 
-/* 使用指南 */
+/* Usage guide */
 .guide-content {
   display: flex;
   flex-direction: column;
@@ -521,7 +526,7 @@ body {
   border: 1px solid #e3f2fd;
 }
 
-/* 日志容器 */
+/* Log container */
 .logs-container {
   height: 250px;
   overflow-y: auto;
@@ -601,7 +606,7 @@ body {
   font-weight: 600;
 }
 
-/* 页脚 */
+/* Footer */
 .footer {
   text-align: center;
   padding: 20px;
@@ -614,7 +619,7 @@ body {
   margin: 5px 0;
 }
 
-/* 弹窗 */
+/* Modal */
 .modal {
   display: none;
   position: fixed;
@@ -688,7 +693,7 @@ body {
   padding: 25px;
 }
 
-/* 响应式 */
+/* Responsive */
 @media (max-width: 768px) {
   .header-title h1 {
     font-size: 1.3em;
@@ -712,7 +717,7 @@ body {
   }
 }
 
-/* 滚动条美化 */
+/* Scrollbar styling */
 .logs-container::-webkit-scrollbar {
   width: 8px;
 }
@@ -730,3 +735,4 @@ body {
 .logs-container::-webkit-scrollbar-thumb:hover {
   background: #ec407a;
 }
+```
