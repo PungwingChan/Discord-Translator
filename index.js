@@ -385,17 +385,12 @@ app.listen(PORT, '0.0.0.0', async () => {
   console.log('╔════════════════════════════════════════════════════════╗');
   console.log('║        🤖 Discord Translation Bot Panel Started        ║');
   console.log('╚════════════════════════════════════════════════════════╝');
-  console.log('');
-  console.log(`🌐 Access URL: http://${HOST}:${PORT}`);
-  console.log(`🌐 Local access: http://localhost:${PORT}`);
-  console.log('');
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
   console.log('🔐 Login Credentials (keep them safe)');
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
   console.log(`   Admin password: ${config.adminPassword}`);
   console.log(`   Sample Token: ${config.discordToken.substring(0, 30)}...`);
   console.log('━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━');
-  console.log('');
   console.log('💡 Tips:');
   console.log('   1. Use the admin password above for your first login');
   console.log('   2. After logging in, enter your real Discord Bot Token in the panel');
